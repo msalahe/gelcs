@@ -12,14 +12,25 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+ 
+          <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
+    <!-- Styles -->
+         <link rel="stylesheet" href="{{ asset('assets/css/dashlite.css?ver=2.9.0') }}">
+         <link id="skin-default" rel="stylesheet" href="{{ asset('assets/css/theme.css?ver=2.9.0') }}">
+         <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
+
+        <script src="{{ asset('assets/js/bundle.js?ver=2.9.0') }}"></script>
+         <script src="{{ asset('assets/js/scripts.js?ver=2.9.0') }}"></script>
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
+      <script src="{{ asset('assets/js/libs/datatable-btns.js?ver=2.9.0') }}"></script>
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
             <div id="app">
-            @include('layouts.navigation')
+            @include('layouts.sidebare')
 
             <!-- Page Heading -->
             <header class="bg-white shadow">

@@ -10,7 +10,7 @@ import Vue from 'vue';
 Vue.use(VueRouter);
  
 import Home from  './components/WelcomeCompents.vue';
-import Task from  './components/TaskCompent.vue';
+import Task from  './components/AnneCompent.vue';
 
 const routes = [
     {
